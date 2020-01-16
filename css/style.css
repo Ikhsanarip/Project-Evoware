@@ -1,0 +1,200 @@
+
+
+nav {
+    background-color: transparent;
+    position: relative;
+    z-index: 13;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+.text-field {
+    background-color: #bbb;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#carousel {
+    position: relative;
+    top: -58px;
+    margin-bottom: -58px;
+}
+
+.carousel-indicators li {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.picture-product .card {
+    border: none;
+}
+
+.left .carousel-indicators li {
+    width: 10px;
+    height: 1px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+
+.left .carousel-indicators .orange {
+    background-color: orange;
+}
+
+.left .carousel-indicators .red {
+    background-color: red;
+}
+
+.left .carousel-indicators .green {
+    background-color: green;
+}
+
+.left ul li ol {
+    position: absolute;
+    top: 130px;
+    left: -438px;
+}
+
+.picture-product img {
+    width: 650px;
+    padding: 45px;
+    margin: 10px auto;
+}
+
+.left-image {
+    padding-left: 50px;
+}
+
+.left {
+    width: 50%;
+    height: 1200px;
+}
+
+.left {
+    padding-bottom: 15%;
+}
+
+.sub-title {
+    padding-bottom: 20px;
+}
+
+.left ul {
+    position: relative;
+    left: -40px;
+    padding-top: 15px;
+    padding-bottom: 20%;
+    list-style-type: none;
+}
+.left ul li {
+    padding-top: 10px;
+}
+
+.order {
+    margin-top: 20px;
+}
+
+.order .button {
+    background-color: #337d5b;
+    color: #fff;
+    padding: 5px 7px;
+}
+
+.order .button:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.right {
+    width: 50%;
+    height: 1200px;
+    background-color: #ddd;
+    padding-top: 50px;
+    float: right;
+}
+
+#seaweed .carousel-inner img {
+
+    margin: auto;
+    margin-left: 70px;
+    
+}
+
+#seaweed {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#jello {
+    margin-top: 120px;
+}
+
+footer .text-subscribe {
+    font-weight: 700;
+    color: rgb(172, 170, 170);
+}
+
+footer p {
+    font-weight: 600;
+    color: rgb(172, 170, 170);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Mixin itself
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+// Usage as a mixin
+.element {
+  @include clearfix;
+}
